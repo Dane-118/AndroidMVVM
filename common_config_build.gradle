@@ -21,20 +21,20 @@ android {
                                     VIVO_APPID    : "1"
             ]
 
-            buildConfigField "String", "BUGLY_APP_ID", '"8f79d35f13"'
-            buildConfigField "String", "BUGLY_APP_KEY", '"18b2d026-2d5e-4ffb-a2f8-fda5bcc38900"'
+            buildConfigField "String", "BUGLY_APP_ID", '"8f79d3"'
+            buildConfigField "String", "BUGLY_APP_KEY", '"18b2d026-2d5e-4ffb-a2f8"'
 
             buildConfigField "boolean", "LOG_DEBUG", "true"
             buildConfigField "boolean", "USE_CANARY", "true"
-            buildConfigField "String", "BASE_URL", '"http://dev.gaolvzongheng.com/"'
+            buildConfigField "String", "BASE_URL", '"http://"'
             buildConfigField "String", "BASE_VERSION", '"v1"'
-            buildConfigField "String", "BASE_IMAGE_URL", '"https://img.dev.gaolvzongheng.com"'
-            buildConfigField "String", "BASE_URL_12306", '"https://kyfw.12306.cn/"'
-            buildConfigField "String", "BASE_URL_12306_WIFI", '"https://wifi.12306.cn/"'
-            buildConfigField "String", "BASE_URL_WEB_H5", '"http://ad.dev.gaolvzongheng.com"'
-            buildConfigField "String", "SA_SERVER_URL", '"http://sensors-api.gaolvzongheng.com/sa?project=default&token=schemaLimited-GFj7obZ5"'
-            buildConfigField "String", "CUSTOMER_SERVICE_ID", '"b76efd6ffcf75605"'
-            buildConfigField "String", "CUSTOMER_SERVICE_KEY", '"fa3d8beeaecaa65531825c5196ae0098"'
+            buildConfigField "String", "BASE_IMAGE_URL", '"https:/"'
+            buildConfigField "String", "BASE_URL_12306", '"https:/"'
+            buildConfigField "String", "BASE_URL_12306_WIFI", '"https:"'
+            buildConfigField "String", "BASE_URL_WEB_H5", '"http://"'
+            buildConfigField "String", "SA_SERVER_URL", '"http://senso"'
+            buildConfigField "String", "CUSTOMER_SERVICE_ID", '"b76efd6ff"'
+            buildConfigField "String", "CUSTOMER_SERVICE_KEY", '"fa3d8"'
         }
 
     }
