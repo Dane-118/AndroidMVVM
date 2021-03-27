@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="315dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/public_bg_r8">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/qb_px_30"
+        android:text="确定要放弃支付？"
+        android:textColor="#ff3c3c3c"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/customer_message"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:maxWidth="@dimen/qb_px_280"
+        android:paddingStart="@dimen/qb_px_20"
+        android:paddingEnd="@dimen/qb_px_20"
+        android:textColor="#3c3c3c"
+        android:paddingBottom="@dimen/qb_px_30"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_title" />
+
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#C5C5C5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/customer_message" />
+
+    <TextView
+        android:id="@+id/tv_cancel"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="确认离开"
+        android:textColor="#FF3C3C3C"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/line1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/line" />
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="1px"
+        android:layout_height="48dp"
+        android:background="#C5C5C5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/line" />
+
+    <TextView
+        android:id="@+id/tv_confirm"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="继续支付"
+        android:textColor="#ff007aff"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/line1"
+        app:layout_constraintTop_toBottomOf="@id/line" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

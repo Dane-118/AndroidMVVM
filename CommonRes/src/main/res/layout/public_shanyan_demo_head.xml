@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rl_log_back_sdk"
+        android:layout_width="@dimen/qb_px_100"
+        android:layout_height="@dimen/qb_px_100">
+        <ImageView
+            android:layout_width="@dimen/qb_px_17"
+            android:layout_height="@dimen/qb_px_17"
+            android:layout_marginTop="@dimen/qb_px_14"
+            android:layout_marginStart="@dimen/qb_px_18"
+            android:background="@drawable/public_shanyan_demo_return_left_bg"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

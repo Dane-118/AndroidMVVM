@@ -1,0 +1,9 @@
+include ':app'
+include ':CommonSDK'
+include ':CommonCalendar'
+include ':CommonPush'
+include ':CommonMvvm'
+include ':CommonRes'
+include ':CommonService'
+
+rootProject.name = "AndroidStudy"

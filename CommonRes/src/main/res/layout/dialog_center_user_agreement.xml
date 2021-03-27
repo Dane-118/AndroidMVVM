@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/public_bg_r8"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/qb_px_30">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/qb_px_20"
+        android:gravity="center"
+        android:text="@string/user_agreement_info"
+        android:textColor="#ff3c3c3c"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_user_agreement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/qb_px_20"
+        android:layout_marginEnd="@dimen/qb_px_20"
+        android:lineSpacingExtra="@dimen/qb_px_5"
+        android:textColor="#ff909399"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_marginTop="@dimen/qb_px_16"
+        android:background="@color/device_line" />
+
+    <TextView
+        android:id="@+id/btn_user_agreement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/public_bg_r8"
+        android:gravity="center"
+        android:paddingTop="@dimen/qb_px_16"
+        android:paddingBottom="@dimen/qb_px_16"
+        android:text="@string/i_know"
+        android:textColor="#ff007aff"
+        android:textSize="14sp" />
+
+</LinearLayout>

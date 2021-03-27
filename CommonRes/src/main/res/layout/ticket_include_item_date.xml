@@ -1,0 +1,56 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_date"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/qb_px_31"
+    tools:ignore="ResourceName">
+
+    <TextView
+        android:id="@+id/tv_ahead_day"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/selector_ticket_details_tv"
+        android:drawableStart="@drawable/ic_train_list_arrow_left_white"
+        android:gravity="center"
+        android:paddingLeft="@dimen/qb_px_16"
+        android:paddingRight="@dimen/qb_px_16"
+        android:text="前一天"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/tv_current_date"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape_ticket_details_date"
+        android:button="@null"
+        android:drawableEnd="@drawable/ic_small_down_arrow_white"
+        android:gravity="center"
+        android:paddingLeft="@dimen/qb_px_16"
+        android:paddingRight="@dimen/qb_px_16"
+        android:text=" 今天"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_after_day"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/selector_ticket_details_tv"
+        android:drawableRight="@drawable/ic_train_list_arrow_right_white"
+        android:gravity="center"
+        android:paddingLeft="@dimen/qb_px_16"
+        android:paddingRight="@dimen/qb_px_16"
+        android:text="后一天"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

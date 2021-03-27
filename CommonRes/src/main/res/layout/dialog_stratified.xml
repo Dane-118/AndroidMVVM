@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_bg_radio8_white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_stratified_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_bg_radio4_fff9f1"
+            android:letterSpacing="0.2"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="6dp"
+            android:text="@string/stratified_change_reminder"
+            android:textColor="#F19623"
+            android:textSize="11sp"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_stratified_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:overScrollMode="never"
+            android:scrollbars="none" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_stratified_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/shape_bg_radio8_white"
+        android:text="@string/cp_cancel"
+        android:textColor="#007AFF"
+        android:textSize="16sp" />
+
+</LinearLayout>

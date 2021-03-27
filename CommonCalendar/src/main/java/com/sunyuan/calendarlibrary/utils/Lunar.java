@@ -1,0 +1,78 @@
+package com.sunyuan.calendarlibrary.utils;
+
+public class Lunar {
+    public boolean isleap;
+
+    public int lunarDay;
+
+    public int lunarMonth;
+
+    public int lunarYear;
+
+    public boolean isLFestival;
+
+    public String lunarFestivalName;//农历节日
+
+
+
+
+
+    final static String chineseNumber[] =
+
+            {"一", "二", "三", "四", "五", "六", "七", "八", "九", "十", "十一", "十二"};
+
+
+
+    public static String getChinaDayString(int day) {
+        String chineseTen[] =
+                {"初", "十", "廿", "卅"};
+        int n = day % 10 == 0 ? 9 : day % 10 - 1;
+        if (day > 30)
+            return "";
+        if (day == 10)
+            return "初十";
+        else
+            return chineseTen[day / 10] + chineseNumber[n];
+
+    }
+
+
+    /**
+     * 返回农历中文格式
+     *
+     * @param day
+     * @return
+     */
+    public static String getLunarDayString(int day) {
+        String chineseTen[] = {"初", "十", "廿", "卅"};
+        int n = day % 10 == 0 ? 9 : day % 10 - 1;
+        if (day > 30)
+            return "";
+        if (day == 10)
+            return "初十";
+        else
+            return chineseTen[day / 10] + CHINESE_NUMBER[n];
+    }
+
+    /**
+     * 用于保存中文的月份
+     */
+    private final static String CHINESE_NUMBER[] = {"一", "二", "三", "四", "五",
+            "六", "七", "八", "九", "十", "十一", "腊"};
+
+
+
+    @Override
+
+    public String toString() {
+
+        return "Lunar [isleap=" + isleap + ", lunarDay=" + lunarDay
+
+                + ", lunarMonth=" + lunarMonth + ", lunarYear=" + lunarYear
+
+                + ", isLFestival=" + isLFestival + ", lunarFestivalName="
+
+                + lunarFestivalName + "]";
+
+    }
+}

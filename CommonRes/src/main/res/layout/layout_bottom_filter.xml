@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/public_filter_bg"
+    android:orientation="horizontal">
+
+    <com.example.android.study.commonres.widget.view.CustomLayout
+        android:id="@+id/cl_start"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        app:is_enable="true"
+        app:text_name="发车" />
+
+    <View
+        android:layout_width="@dimen/qb_px_1"
+        android:layout_height="@dimen/qb_px_12"
+        android:background="#F7F7F7" />
+
+    <com.example.android.study.commonres.widget.view.CustomLayout
+        android:id="@+id/cl_time"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        app:text_name="耗时" />
+
+    <View
+        android:layout_width="@dimen/qb_px_1"
+        android:layout_height="@dimen/qb_px_12"
+        android:background="#F7F7F7" />
+
+    <com.example.android.study.commonres.widget.view.CustomLayout
+        android:id="@+id/cl_price"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        app:text_name="价格" />
+
+    <View
+        android:layout_width="@dimen/qb_px_1"
+        android:layout_height="@dimen/qb_px_12"
+        android:background="#F7F7F7" />
+
+    <TextView
+        android:id="@+id/cl_filter"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="筛选"
+        android:textColor="#606266"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="@dimen/qb_px_1"
+        android:layout_height="@dimen/qb_px_12"
+        android:background="#F7F7F7" />
+</LinearLayout>

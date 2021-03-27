@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="#FFFFFFFF" />
+    <!-- 设置半圆，四个角分别设置为控件高度的一半，直接设置radius不能实现半圆 -->
+
+    <corners android:radius="8dp" />
+
+</shape>

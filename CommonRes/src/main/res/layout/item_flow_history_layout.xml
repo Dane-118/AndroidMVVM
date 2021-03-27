@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cp_grid_item_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="4dp"
+    android:paddingBottom="6dp"
+    android:paddingStart="0dp"
+    android:paddingEnd="16dp">
+
+    <TextView
+        android:id="@+id/cp_gird_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/qb_px_32"
+        android:background="?attr/cpGridItemBackground"
+        android:gravity="center"
+        android:paddingLeft="@dimen/qb_px_16"
+        android:paddingRight="@dimen/qb_px_16"
+        android:text="aaa"
+        android:textColor="#ff696969"
+        android:textSize="12sp" />
+</FrameLayout>

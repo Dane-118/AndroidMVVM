@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ColorFountTextView">
+        <attr name="text_arrays" format="string" />
+        <attr name="color_arrays" format="string" />
+        <attr name="textsize_arrays" format="string" />
+        <attr name="line_arrays" format="string" />
+        <attr name="style_arrays" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="WheelView">
+        <!--文字大小-->
+        <attr name="wv_textSize" format="dimension" />
+        <!--是否自适应文字大小以完全显示过长的文字-->
+        <attr name="wv_autoFitTextSize" format="boolean" />
+        <!--文字对齐方式-->
+        <attr name="wv_textAlign" format="enum">
+            <enum name="left" value="0" />
+            <enum name="center" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+        <!--文字距离边界的外边距-->
+        <attr name="wv_textBoundaryMargin" format="dimension" />
+        <!--未选中文字颜色-->
+        <attr name="wv_normalItemTextColor" format="color" />
+        <!--被选中的文字颜色-->
+        <attr name="wv_selectedItemTextColor" format="color" />
+        <!--行间距-->
+        <attr name="wv_lineSpacing" format="dimension" />
+        <!--数据为Integer类型时是否需要转换-->
+        <attr name="wv_integerNeedFormat" format="boolean" />
+        <!--Integer类型转换格式-->
+        <attr name="wv_integerFormat" format="string" />
+        <!--可见item数-->
+        <attr name="wv_visibleItems" format="integer" />
+        <!--当前选中下标-->
+        <attr name="wv_selectedItemPosition" format="integer" />
+        <!--是否循环滚动-->
+        <attr name="wv_cyclic" format="boolean" />
+        <!--是否显示分割线-->
+        <attr name="wv_showDivider" format="boolean" />
+        <!--分割线类型-->
+        <attr name="wv_dividerType" format="enum">
+            <enum name="fill" value="0" />
+            <enum name="wrap" value="1" />
+        </attr>
+        <!--分割线颜色-->
+        <attr name="wv_dividerColor" format="color" />
+        <!--分割线高度-->
+        <attr name="wv_dividerHeight" format="dimension" />
+        <!--wrap类型下分割线内边距-->
+        <attr name="wv_dividerPaddingForWrap" format="dimension" />
+        <!--是否是弯曲（3D）效果-->
+        <attr name="wv_curved" format="boolean" />
+        <!--弯曲（3D）效果左右圆弧偏移效果方向 可向指定方向偏移-->
+        <attr name="wv_curvedArcDirection" format="enum">
+            <enum name="left" value="0" />
+            <enum name="center" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+        <!--弯曲（3D）效果左右圆弧偏移效果方向系数 偏移系数-->
+        <attr name="wv_curvedArcDirectionFactor" format="float" />
+        <!--选中后折射的偏移(弯曲（3D）效果和普通效果都适用) 与字体大小的比值，1为不偏移 越小偏移越明显-->
+        <attr name="wv_refractRatio" format="float" />
+        <!-- Deprecated 已过时 请使用 wv_refractRatio -->
+        <attr name="wv_curvedRefractRatio" format="float" />
+        <!--是否绘制选中区域-->
+        <attr name="wv_drawSelectedRect" format="boolean" />
+        <!--选中区域颜色-->
+        <attr name="wv_selectedRectColor" format="color" />
+        <!--选中区域/分割线上下偏移，通过移动分割线上下限制的位置来实现扩大/缩小显示区域-->
+        <attr name="wv_dividerOffset" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="expandableLayout">
+        <attr name="ael_duration" format="integer" />
+        <attr name="ael_expanded" format="boolean" />
+        <attr name="ael_defaultChildIndex" format="integer" />
+        <attr name="ael_defaultPosition" format="dimension" />
+        <attr name="ael_orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="ael_interpolator" format="enum">
+            <enum name="accelerateDecelerate" value="0" />
+            <enum name="accelerate" value="1" />
+            <enum name="anticipate" value="2" />
+            <enum name="anticipateOvershoot" value="3" />
+            <enum name="bounce" value="4" />
+            <enum name="decelerate" value="5" />
+            <enum name="fastOutLinearIn" value="6" />
+            <enum name="fastOutSlowIn" value="7" />
+            <enum name="linear" value="8" />
+            <enum name="linearOutSlowIn" value="9" />
+            <enum name="overshoot" value="10" />
+        </attr>
+    </declare-styleable>
+
+
+
+    <declare-styleable name="CustomLayout">
+        <attr name="text_name" format="string"></attr>
+        <attr name="is_enable" format="boolean"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="BottomLayout">
+        <attr name="count" format="string"></attr>
+        <attr name="last_view_str" format="string"></attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="TagFlowLayout">
+        <attr name="max_select" format="integer"></attr>
+        <attr name="tag_gravity">
+            <enum name="left" value="-1" />
+            <enum name="center" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CalendarView">
+
+        <attr name="calendar_padding" format="dimension" /><!--日历内部左右padding-->
+
+        <attr name="week_background" format="color" /><!--周背景-->
+        <attr name="week_line_background" format="color" /><!--线条颜色-->
+        <attr name="week_text_color" format="color" /><!--周栏字体颜色-->
+        <attr name="week_text_size" format="dimension" /><!--周栏字体大小-->
+        <attr name="week_line_margin" format="dimension" /><!--线条margin-->
+
+        <attr name="month_view" format="string" /><!--完全自定义月视图-->
+        <attr name="week_view" format="string" /> <!--完全自定义周视图-->
+        <attr name="year_view" format="string" /> <!--完全自定义年视图-->
+        <attr name="week_bar_height" format="dimension" /> <!--星期栏的高度-->
+        <attr name="week_bar_view" format="string" /> <!--如果需要的话使用自定义星期栏-->
+
+        <attr name="scheme_text" format="string" />
+        <attr name="day_text_size" format="dimension" />
+        <attr name="lunar_text_size" format="dimension" />
+        <attr name="calendar_height" format="dimension" />
+        <attr name="calendar_match_parent" format="boolean" /> <!-- 全屏日历 -->
+        <attr name="scheme_text_color" format="color" />
+        <attr name="scheme_month_text_color" format="color" />
+        <attr name="scheme_lunar_text_color" format="color" />
+        <attr name="scheme_theme_color" format="color" />
+
+        <attr name="selected_theme_color" format="color" />
+        <attr name="selected_text_color" format="color" />
+        <attr name="selected_lunar_text_color" format="color" />
+
+        <attr name="current_day_text_color" format="color" />
+        <attr name="current_day_lunar_text_color" format="color" />
+        <attr name="current_month_text_color" format="color" />
+        <attr name="other_month_text_color" format="color" />
+        <attr name="current_month_lunar_text_color" format="color" />
+        <attr name="other_month_lunar_text_color" format="color" />
+
+
+        <!-- 年视图相关 -->
+        <attr name="year_view_month_text_size" format="dimension" />
+        <attr name="year_view_day_text_size" format="dimension" />
+        <attr name="year_view_month_text_color" format="color" />
+        <attr name="year_view_current_day_text_color" format="color" />
+        <attr name="year_view_day_text_color" format="color" />
+        <attr name="year_view_select_text_color" format="color" />
+        <attr name="year_view_scheme_color" format="color" />
+        <attr name="year_view_background" format="color" />
+        <attr name="year_view_month_height" format="dimension" />
+        <attr name="year_view_week_height" format="dimension" />
+        <attr name="year_view_week_text_size" format="dimension" />
+        <attr name="year_view_week_text_color" format="color" />
+        <attr name="year_view_padding" format="dimension" />
+        <attr name="year_view_month_margin_top" format="dimension" />
+        <attr name="year_view_month_margin_bottom" format="dimension" />
+
+        <!--日期范围-->
+        <attr name="min_year" format="integer" />
+        <attr name="max_year" format="integer" />
+        <attr name="min_year_month" format="integer" />
+        <attr name="max_year_month" format="integer" />
+        <attr name="min_year_day" format="integer" />
+        <attr name="max_year_day" format="integer" />
+
+
+        <!--月视图是否可滚动-->
+        <attr name="month_view_scrollable" format="boolean" />
+        <!--周视图是否可滚动-->
+        <attr name="week_view_scrollable" format="boolean" />
+        <!--年视图是否可滚动-->
+        <attr name="year_view_scrollable" format="boolean" />
+
+        <!-- 月份显示模式 -->
+        <attr name="month_view_show_mode">
+            <enum name="mode_all" value="0" />
+            <enum name="mode_only_current" value="1" />
+            <enum name="mode_fix" value="2" />
+        </attr>
+
+        <!-- 自定义周起始 -->
+        <attr name="week_start_with">
+            <enum name="sun" value="1" />
+            <enum name="mon" value="2" />
+            <enum name="sat" value="7" />
+        </attr>
+
+        <!-- 自定义选择模式 -->
+        <attr name="select_mode">
+            <enum name="default_mode" value="0" />
+            <enum name="single_mode" value="1" />
+            <enum name="range_mode" value="2" />
+            <enum name="multi_mode" value="3" />
+        </attr>
+
+        <!-- when select_mode = multi_mode -->
+        <attr name="max_multi_select_size" format="integer" />
+
+        <!-- when select_mode = range_mode -->
+        <attr name="min_select_range" format="integer" />
+        <attr name="max_select_range" format="integer" />
+
+        <!-- auto select day -->
+        <attr name="month_view_auto_select_day">
+            <enum name="first_day_of_month" value="0" />
+            <enum name="last_select_day" value="1" />
+            <enum name="last_select_day_ignore_current" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <attr name="cpCancelTextSize" format="dimension|reference" />
+    <attr name="cpCancelTextColor" format="color|reference" />
+    <attr name="cpClearTextIcon" format="reference" />
+
+    <attr name="cpsearchTextIcon" format="reference" />
+    <attr name="cpSearchTextSize" format="dimension|reference" />
+    <attr name="cpSearchTextColor" format="color|reference" />
+    <attr name="cpSearchHintText" format="string|reference" />
+    <attr name="cpSearchHintTextColor" format="color|reference" />
+    <attr name="cpSearchCursorDrawable" format="reference" />
+
+    <attr name="cpListItemTextSize" format="dimension|reference" />
+    <attr name="cpListItemTextColor" format="color|reference" />
+    <attr name="cpListItemHeight" format="dimension|reference"/>
+
+    <attr name="cpEmptyIcon" format="reference"/>
+    <attr name="cpEmptyIconWidth" format="dimension|reference"/>
+    <attr name="cpEmptyIconHeight" format="dimension|reference"/>
+    <attr name="cpEmptyText" format="string|reference"/>
+    <attr name="cpEmptyTextSize" format="dimension|reference"/>
+    <attr name="cpEmptyTextColor" format="color|reference"/>
+
+    <attr name="cpGridItemBackground" format="color|reference"/>
+    <attr name="cpGridItemSpace" format="reference"/>
+
+    <attr name="cpSectionHeight" format="reference"/>
+    <attr name="cpSectionTextSize" format="reference" />
+    <attr name="cpSectionTextColor" format="reference" />
+    <attr name="cpSectionBackground" format="reference" />
+
+    <attr name="cpIndexBarTextSize" format="reference" />
+    <attr name="cpIndexBarNormalTextColor" format="reference" />
+    <attr name="cpIndexBarSelectedTextColor" format="reference" />
+
+    <attr name="cpOverlayWidth" format="dimension|reference"/>
+    <attr name="cpOverlayHeight" format="dimension|reference"/>
+    <attr name="cpOverlayTextSize" format="dimension|reference"/>
+    <attr name="cpOverlayTextColor" format="color|reference"/>
+    <attr name="cpOverlayBackground" format="color|reference"/>
+
+    <!--    五星评论    -->
+    <declare-styleable name="RatingBar">
+        <attr name="starImageSize" format="dimension" />
+        <attr name="starImageWidth" format="dimension" />
+        <attr name="starImageHeight" format="dimension" />
+        <attr name="starImagePadding" format="dimension" />
+        <attr name="starImagesMargin" format="dimension" />
+        <attr name="starCount" format="integer" />
+        <attr name="starNum" format="integer" />
+        <attr name="starEmpty" format="reference" />
+        <attr name="starFill" format="reference" />
+        <attr name="starHalf" format="reference" />
+        <attr name="clickable" format="boolean" />
+        <attr name="halfstart" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="DragFrameLayout">
+        <attr name="margin_edge" format="dimension"></attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="YPKTabLayoutView">
+        <attr name="tabTextColor" format="color" />
+        <attr name="tabSelectTextColor" format="color" />
+        <attr name="tabTextSize" format="dimension" />
+        <attr name="tab_view_bg" format="color" />
+        <attr name="select_tab_color" format="color" />
+        <!--值越大，弧度越大-->
+        <attr name="arcControlX" format="integer" />
+        <!--圆角的大小-->
+        <attr name="view_bg_corners" format="dimension" />
+    </declare-styleable>
+
+
+
+
+
+</resources>

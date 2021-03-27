@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cp_search_view"
+    android:layout_width="match_parent"
+    android:layout_height="36dp"
+    android:background="@drawable/shape_search_bg"
+    android:orientation="horizontal"
+    android:paddingStart="@dimen/qb_px_14"
+    android:paddingRight="10dp"
+    tools:showIn="@layout/cp_dialog_city_picker">
+
+    <ImageView
+        android:id="@+id/iv_search"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/icon_search" />
+
+    <EditText
+        android:id="@+id/cp_search_box"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toStartOf="@id/cp_clear_all"
+        android:layout_toEndOf="@id/iv_search"
+        android:background="@null"
+        android:hint="?attr/cpSearchHintText"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:maxLength="20"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="?attr/cpSearchTextColor"
+        android:textColorHint="?attr/cpSearchHintTextColor"
+        android:textCursorDrawable="@drawable/shape_edit_text"
+        android:textSize="?attr/cpSearchTextSize" />
+
+    <ImageView
+        android:id="@+id/cp_clear_all"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:padding="2dp"
+        android:scaleType="fitCenter"
+        android:src="?attr/cpClearTextIcon"
+        android:visibility="gone" />
+
+
+    <TextView
+        android:id="@+id/cp_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cp_cancel"
+        android:textColor="?attr/cpCancelTextColor"
+        android:textSize="?attr/cpCancelTextSize"
+        android:visibility="gone" />
+</RelativeLayout>

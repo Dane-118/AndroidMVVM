@@ -1,0 +1,64 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+//可选 代码支持通过view id获取对象，不再需要findViewById
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+android {
+    compileSdkVersion rootProject.ext.android["compileSdkVersion"]
+    buildToolsVersion rootProject.ext.android["buildToolsVersion"]
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.android["minSdkVersion"]
+        targetSdkVersion rootProject.ext.android["targetSdkVersion"]
+        versionCode rootProject.ext.android["versionCode"]
+        versionName rootProject.ext.android["versionName"]
+        compileOptions {
+            targetCompatibility JavaVersion.VERSION_1_8
+            sourceCompatibility JavaVersion.VERSION_1_8
+        }
+        testInstrumentationRunner rootProject.ext.dependencies["androidJUnitRunner"]
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [AROUTER_MODULE_NAME: project.getName()]
+
+            }
+        }
+
+
+    }
+
+    //使用Kotlin实验特性
+    androidExtensions {
+        experimental = true
+    }
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+//    resourcePrefix "db_" //给 Module 内的资源名增加前缀, 避免资源名冲突
+}
+
+dependencies {
+    api fileTree(dir: 'libs', include: ['*.jar','*.aar'])
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    kapt "androidx.room:room-compiler:2.2.5"
+    kapt rootProject.ext.dependencies["arouter-compiler"]
+    api project(":CommonSDK")
+
+}
+repositories {
+    mavenCentral()
+}

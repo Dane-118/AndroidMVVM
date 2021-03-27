@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/qb_px_30"
+    android:layout_marginEnd="@dimen/qb_px_30"
+    android:background="@drawable/public_bg_r8">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/customer_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/qb_px_30"
+        android:textColor="#171717"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/luggage_confirm_delete" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/customer_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/qb_px_12"
+        android:maxWidth="@dimen/qb_px_280"
+        android:textColor="#ffc5c5c5"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/customer_title"
+        app:layout_goneMarginTop="@dimen/qb_px_30"
+        tools:text="@string/luggage_delete_info_msg" />
+
+    <View
+        android:id="@+id/line_dialog_delete_top"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="@dimen/qb_px_30"
+        android:background="#33C5C5C5"
+        app:layout_constraintTop_toBottomOf="@+id/customer_message" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/customer_cancel"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/qb_px_48"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/customer_sure"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/line_dialog_delete_top"
+        tools:text="@string/dialog_think_again" />
+
+    <View
+        android:id="@+id/line_customer"
+        android:layout_width="0.5dp"
+        android:layout_height="@dimen/qb_px_48"
+        android:background="#33C5C5C5"
+        app:layout_constraintStart_toEndOf="@+id/customer_cancel"
+        app:layout_constraintTop_toBottomOf="@+id/line_dialog_delete_top" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/customer_sure"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/qb_px_48"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/customer_cancel"
+        app:layout_constraintTop_toBottomOf="@+id/line_dialog_delete_top"
+        tools:text="@string/dialog_confirm_delete" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

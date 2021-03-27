@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/qb_px_24"
+    android:background="@drawable/shape_dialog_ticket_bg"
+    tools:ignore="MissingConstraints">
+
+    <ImageView
+        android:id="@+id/iv"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/qb_px_148"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/qb_px_24"
+        android:layout_marginTop="@dimen/qb_px_32"
+        android:text="乘车人手机号未核验"
+        android:textColor="#ff3c3c3c"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/qb_px_24"
+        android:layout_marginTop="@dimen/qb_px_20"
+        android:layout_marginEnd="@dimen/qb_px_24"
+        android:textColor="#ff696969"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_title" />
+
+
+    <LinearLayout
+        android:id="@+id/confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/qb_px_24"
+        android:layout_marginTop="@dimen/qb_px_16"
+        android:layout_marginEnd="@dimen/qb_px_24"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_message">
+
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/qb_px_40"
+            android:layout_weight="1"
+            android:background="@drawable/shape_dialog_verify_bg"
+            android:gravity="center"
+            android:maxWidth="@dimen/qb_px_182"
+            android:text="继续购票"
+            android:textColor="#ff3c3c3c"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_confirm"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/qb_px_40"
+            android:layout_marginStart="@dimen/qb_px_11"
+            android:layout_weight="1"
+            android:background="@drawable/shape_dialog_verify_blue_bg"
+            android:gravity="center"
+            android:maxWidth="@dimen/qb_px_182"
+            android:text="去核验"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_know"
+        android:layout_width="182dp"
+        android:layout_height="@dimen/qb_px_40"
+        android:layout_marginTop="@dimen/qb_px_16"
+        android:layout_weight="1"
+        android:background="@drawable/shape_dialog_verify_blue_bg"
+        android:gravity="center"
+        android:text="我知道了"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_message" />
+</androidx.constraintlayout.widget.ConstraintLayout>

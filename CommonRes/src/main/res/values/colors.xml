@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingDefaultResource">
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#F1F4F8</color>
+    <color name="colorAccent">#007AFF</color>
+    <color name="bg_app">#F1F1F1</color>
+    <color name="transparent">#00000000</color>
+    <color name="gray">#99000000</color>
+    <color name="bac_gray">#ECF5FF</color>
+
+    <color name="tab_unselect">#c9c9c9</color>
+    <color name="bg_btn">#dadada</color>
+    <color name="white">#FFFFFF</color>
+    <color name="color_text_press">#007AFF</color>
+    <color name="color_text_un_press">#191C23</color>
+    <color name="transparent_hint">#d9000000</color>
+    <color name="c_99696969">#99696969</color>
+
+    <color name="text_3c">#3C3C3C</color>
+    <color name="text_69">#696969</color>
+    <color name="orange_f1">#F19623</color>
+    <color name="orange_ff">#FFF9F1</color>
+    <color name="text_17">#171717</color>
+    <color name="text_86">#868F95</color>
+    <color name="line">#EBEEF5</color>
+    <color name="line_wide">#F1F4F8</color>
+    <color name="bg_gray">#F5F8FC</color>
+    <color name="login_text_title">#ff171717</color>
+    <color name="login_bt_code_un_enable">#C5CAD4</color>
+    <color name="login_bt_code_enable">#007AFF</color>
+    <color name="login_et_bg">#F1F1F1</color>
+    <color name="login_start_h5">#007AFF</color>
+    <color name="login_press_code">#027BFF</color>
+    <color name="login_un_press_code">#868F95</color>
+    <color name="mine_tab_default">#3C3C3C</color>
+    <color name="badge">#FF4848</color>
+    <color name="passenger_del">#FA5740</color>
+    <color name="badge1">#FF4848</color>
+
+    <color name="color_303133">#303133</color>
+    <color name="color_909399">#909399</color>
+    <color name="text_color">#868F95</color>
+
+    <color name="color_travel">#868F95</color>
+    <color name="section_background">#EBEEF5</color>
+    <color name="train_text_un_press">#ff303133</color>
+    <color name="color_shadow">#19d8dde6</color>
+
+    <color name="text_black">#FF515151</color>
+    <color name="text_bf">#C5C5C5</color>
+    <color name="text_primary">#007AFF</color>
+    <color name="text_white">#ffffff</color>
+    <color name="text_f3c">#ff3c3c3c</color>
+    <color name="text_aff">#F4F9FF</color>
+
+
+    <color name="cp_color_gray_light">#cdcdcd</color>
+    <color name="cp_color_gray">#999999</color>
+    <color name="cp_color_gray_deep">#666666</color>
+    <color name="cp_color_gray_dark">#333333</color>
+    <color name="cp_color_section_bg">#EDEDED</color>
+    <color name="cp_color_grid_item_bg">#f5f5f5</color>
+    <color name="child_text_un_selected">#696969</color>
+    <color name="shape_text_radius_8_color">#FA5740</color>
+    <color name="verify_y">#49BB7B</color>
+    <color name="verify_n">#F9713A</color>
+    <color name="text_fail">#FF4444</color>
+    <color name="coupon_text">#F9713A</color>
+    <color name="coupon_un_text">#c5c5c5</color>
+    <color name="coupon_check_text">#fff94b2f</color>
+    <color name="coupon_check_text_time">#ff909399</color>
+    <color name="coupon_no_check_text">#ffc5c5c5</color>
+    <color name="filter_un_press">#696969</color>
+    <color name="filter_press">#007AFF</color>
+    <color name="_007aff">#007AFF</color>
+    <color name="c_909399">#909399</color>
+    <color name="F171717">#171717</color>
+    <color name="device_line">#F7F7F7</color>
+    <color name="kind_color">#868F95</color>
+    <color name="c_f9713a">#F9713A</color>
+    <color name="msg_view">#F1F2F5</color>
+    <color name="fff9713a">#fff9713a</color>
+    <color name="ff3c3c3c">#ff3c3c3c</color>
+    <color name="FF3C3C3C">#FF3C3C3C</color>
+    <color name="FF007AFF">#007AFF</color>
+    <color name="FF868F95">#868F95</color>
+    <color name="ffc5c5c5">#ffc5c5c5</color>
+    <color name="F9713A">#F9713A</color>
+    <color name="EF3434">#EF3434</color>
+    <color name="C49BB7B">#49BB7B</color>
+    <color name="AFFFFFF">#9AFFFFFF</color>
+
+    <color name="tab_normal_color">#FFC7A4</color>
+    <color name="tab_select_color">#FE6C03</color>
+    <color name="tab_text_color">#454545</color>
+    <color name="green">#52C41A</color>
+    <color name="C3C3C3C">#3C3C3C</color>
+    <color name="C5C5C5">#C5C5C5</color>
+    <color name="_3c3c3c">#3c3c3c</color>
+
+
+</resources>

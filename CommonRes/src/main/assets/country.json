@@ -1,0 +1,1154 @@
+[
+    {
+        "province": "Angola",
+        "name": "安哥拉",
+        "pinyin": "AGL",
+        "code": 244
+    },
+    {
+        "province": "Afghanistan",
+        "name": "阿富汗",
+        "pinyin": "AFH",
+        "code": 93
+    },
+    {
+        "province": "Albania",
+        "name": "阿尔巴尼亚",
+        "pinyin": "AEBNY",
+        "code": 355
+    },
+    {
+        "province": "Algeria",
+        "name": "阿尔及利亚",
+        "pinyin": "AEJLY",
+        "code": 213
+    },
+    {
+        "province": "Andorra",
+        "name": "安道尔共和国",
+        "pinyin": "ADEGHG",
+        "code": 376
+    },
+    {
+        "province": "Anguilla",
+        "name": "安圭拉岛",
+        "pinyin": "AGLD",
+        "code": 1264
+    },
+    {
+        "province": "Antigua and Barbuda",
+        "name": "安提瓜和巴布达",
+        "pinyin": "ATGHBBD",
+        "code": 1268
+    },
+    {
+        "province": "Argentina",
+        "name": "阿根廷",
+        "pinyin": "AGT",
+        "code": 54
+    },
+    {
+        "province": "Armenia",
+        "name": "亚美尼亚",
+        "pinyin": "AMNY",
+        "code": 374
+    },
+    {
+        "province": "Ascension",
+        "name": "阿森松",
+        "pinyin": "ASS",
+        "code": 247
+    },
+    {
+        "province": "Australia",
+        "name": "澳大利亚",
+        "pinyin": "ADLY",
+        "code": 61
+    },
+    {
+        "province": "Austria",
+        "name": "奥地利",
+        "pinyin": "ADL",
+        "code": 43
+    },
+    {
+        "province": "Azerbaijan",
+        "name": "阿塞拜疆",
+        "pinyin": "ASBJ",
+        "code": 994
+    },
+    {
+        "province": "Bahamas",
+        "name": "巴哈马",
+        "pinyin": "BHM",
+        "code": 1242
+    },
+    {
+        "province": "Bahrain",
+        "name": "巴林",
+        "pinyin": "BL",
+        "code": 973
+    },
+    {
+        "province": "Bangladesh",
+        "name": "孟加拉国",
+        "pinyin": "MJLG",
+        "code": 880
+    },
+    {
+        "province": "Barbados",
+        "name": "巴巴多斯",
+        "pinyin": "BBDS",
+        "code": 1246
+    },
+    {
+        "province": "Belarus",
+        "name": "白俄罗斯",
+        "pinyin": "BELS",
+        "code": 375
+    },
+    {
+        "province": "Belgium",
+        "name": "比利时",
+        "pinyin": "BLS",
+        "code": 32
+    },
+    {
+        "province": "Belize",
+        "name": "伯利兹",
+        "pinyin": "BLZ",
+        "code": 501
+    },
+    {
+        "province": "Benin",
+        "name": "贝宁",
+        "pinyin": "BN",
+        "code": 229
+    },
+    {
+        "province": "Bermuda Is.",
+        "name": "百慕大群岛",
+        "pinyin": "BMDQD",
+        "code": 1441
+    },
+    {
+        "province": "Bolivia",
+        "name": "玻利维亚",
+        "pinyin": "BLWY",
+        "code": 591
+    },
+    {
+        "province": "Botswana",
+        "name": "博茨瓦纳",
+        "pinyin": "BCWN",
+        "code": 267
+    },
+    {
+        "province": "Brazil",
+        "name": "巴西",
+        "pinyin": "BX",
+        "code": 55
+    },
+    {
+        "province": "Brunei",
+        "name": "文莱",
+        "pinyin": "WL",
+        "code": 673
+    },
+    {
+        "province": "Bulgaria",
+        "name": "保加利亚",
+        "pinyin": "BJLY",
+        "code": 359
+    },
+    {
+        "province": "Burkina-faso",
+        "name": "布基纳法索",
+        "pinyin": "BJNFS",
+        "code": 226
+    },
+    {
+        "province": "Burma",
+        "name": "缅甸",
+        "pinyin": "MD",
+        "code": 95
+    },
+    {
+        "province": "Burundi",
+        "name": "布隆迪",
+        "pinyin": "BID",
+        "code": 257
+    },
+    {
+        "province": "Cameroon",
+        "name": "喀麦隆",
+        "pinyin": "CML",
+        "code": 237
+    },
+    {
+        "province": "Canada",
+        "name": "加拿大",
+        "pinyin": "JND",
+        "code": 1
+    },
+    {
+        "province": "Cayman Is.",
+        "name": "开曼群岛",
+        "pinyin": "KMQD",
+        "code": 1345
+    },
+    {
+        "province": "Central African Republic",
+        "name": "中非共和国",
+        "pinyin": "ZFGHG",
+        "code": 236
+    },
+    {
+        "province": "Chad",
+        "name": "乍得",
+        "pinyin": "ZD",
+        "code": 235
+    },
+    {
+        "province": "Chile",
+        "name": "智利",
+        "pinyin": "ZL",
+        "code": 56
+    },
+    {
+        "province": "China",
+        "name": "中国",
+        "pinyin": "ZG",
+        "code": 86
+    },
+    {
+        "province": "Colombia",
+        "name": "哥伦比亚",
+        "pinyin": "GLBY",
+        "code": 57
+    },
+    {
+        "province": "Congo",
+        "name": "刚果",
+        "pinyin": "GG",
+        "code": 242
+    },
+    {
+        "province": "Cook Is.",
+        "name": "库克群岛",
+        "pinyin": "CKQD",
+        "code": 682
+    },
+    {
+        "province": "Costa Rica",
+        "name": "哥斯达黎加",
+        "pinyin": "GSDLJ",
+        "code": 506
+    },
+    {
+        "province": "Cuba",
+        "name": "古巴",
+        "pinyin": "GB",
+        "code": 53
+    },
+    {
+        "province": "Cyprus",
+        "name": "塞浦路斯",
+        "pinyin": "SPLS",
+        "code": 357
+    },
+    {
+        "province": "Czech Republic",
+        "name": "捷克",
+        "pinyin": "JK",
+        "code": 420
+    },
+    {
+        "province": "Denmark",
+        "name": "丹麦",
+        "pinyin": "DM",
+        "code": 45
+    },
+    {
+        "province": "Djibouti",
+        "name": "吉布提",
+        "pinyin": "JBT",
+        "code": 253
+    },
+    {
+        "province": "Dominica Rep.",
+        "name": "多米尼加共和国",
+        "pinyin": "DMNJGHG",
+        "code": 1890
+    },
+    {
+        "province": "Ecuador",
+        "name": "厄瓜多尔",
+        "pinyin": "EGDE",
+        "code": 593
+    },
+    {
+        "province": "Egypt",
+        "name": "埃及",
+        "pinyin": "AJ",
+        "code": 20
+    },
+    {
+        "province": "EI Salvador",
+        "name": "萨尔瓦多",
+        "pinyin": "SEWD",
+        "code": 503
+    },
+    {
+        "province": "Estonia",
+        "name": "爱沙尼亚",
+        "pinyin": "ASNY",
+        "code": 372
+    },
+    {
+        "province": "Ethiopia",
+        "name": "埃塞俄比亚",
+        "pinyin": "ASEBY",
+        "code": 251
+    },
+    {
+        "province": "Fiji",
+        "name": "斐济",
+        "pinyin": "FJ",
+        "code": 679
+    },
+    {
+        "province": "Finland",
+        "name": "芬兰",
+        "pinyin": "FI",
+        "code": 358
+    },
+    {
+        "province": "France",
+        "name": "法国",
+        "pinyin": "FG",
+        "code": 33
+    },
+    {
+        "province": "French Guiana",
+        "name": "法属圭亚那",
+        "pinyin": "FSGYN",
+        "code": 594
+    },
+    {
+        "province": "Gabon",
+        "name": "加蓬",
+        "pinyin": "JP",
+        "code": 241
+    },
+    {
+        "province": "Gambia",
+        "name": "冈比亚",
+        "pinyin": "GBY",
+        "code": 220
+    },
+    {
+        "province": "Georgia",
+        "name": "格鲁吉亚",
+        "pinyin": "GLJY",
+        "code": 995
+    },
+    {
+        "province": "Germany",
+        "name": "德国",
+        "pinyin": "DG",
+        "code": 49
+    },
+    {
+        "province": "Ghana",
+        "name": "加纳",
+        "pinyin": "JN",
+        "code": 233
+    },
+    {
+        "province": "Gibraltar",
+        "name": "直布罗陀",
+        "pinyin": "ZBLT",
+        "code": 350
+    },
+    {
+        "province": "Greece",
+        "name": "希腊",
+        "pinyin": "XL",
+        "code": 30
+    },
+    {
+        "province": "Grenada",
+        "name": "格林纳达",
+        "pinyin": "GLND",
+        "code": 1809
+    },
+    {
+        "province": "Guam",
+        "name": "关岛",
+        "pinyin": "GD",
+        "code": 1671
+    },
+    {
+        "province": "Guatemala",
+        "name": "危地马拉",
+        "pinyin": "WDML",
+        "code": 502
+    },
+    {
+        "province": "Guinea",
+        "name": "几内亚",
+        "pinyin": "JNY",
+        "code": 224
+    },
+    {
+        "province": "Guyana",
+        "name": "圭亚那",
+        "pinyin": "GYN",
+        "code": 592
+    },
+    {
+        "province": "Haiti",
+        "name": "海地",
+        "pinyin": "HD",
+        "code": 509
+    },
+    {
+        "province": "Honduras",
+        "name": "洪都拉斯",
+        "pinyin": "HDLS",
+        "code": 504
+    },
+    {
+        "province": "Hong Kong, China",
+        "name": "中国香港",
+        "pinyin": "ZGXG",
+        "code": 852
+    },
+    {
+        "province": "Hungary",
+        "name": "匈牙利",
+        "pinyin": "XYL",
+        "code": 36
+    },
+    {
+        "province": "Iceland",
+        "name": "冰岛",
+        "pinyin": "BD",
+        "code": 354
+    },
+    {
+        "province": "India",
+        "name": "印度",
+        "pinyin": "YD",
+        "code": 91
+    },
+    {
+        "province": "Indonesia",
+        "name": "印度尼西亚",
+        "pinyin": "YDNXY",
+        "code": 62
+    },
+    {
+        "province": "Iran",
+        "name": "伊朗",
+        "pinyin": "YL",
+        "code": 98
+    },
+    {
+        "province": "Iraq",
+        "name": "伊拉克",
+        "pinyin": "YLK",
+        "code": 964
+    },
+    {
+        "province": "Ireland",
+        "name": "爱尔兰",
+        "pinyin": "AEL",
+        "code": 353
+    },
+    {
+        "province": "Israel",
+        "name": "以色列",
+        "pinyin": "YSL",
+        "code": 972
+    },
+    {
+        "province": "Italy",
+        "name": "意大利",
+        "pinyin": "YDL",
+        "code": 39
+    },
+    {
+        "province": "Ivory Coast",
+        "name": "科特迪瓦",
+        "pinyin": "KTDW",
+        "code": 225
+    },
+    {
+        "province": "Jamaica",
+        "name": "牙买加",
+        "pinyin": "YMJ",
+        "code": 1876
+    },
+    {
+        "province": "Japan",
+        "name": "日本",
+        "pinyin": "RB",
+        "code": 81
+    },
+    {
+        "province": "Jordan",
+        "name": "约旦",
+        "pinyin": "YD",
+        "code": 962
+    },
+    {
+        "province": "Kampuchea (Cambodia )",
+        "name": "柬埔寨",
+        "pinyin": "JPZ",
+        "code": 855
+    },
+    {
+        "province": "Kazakhstan",
+        "name": "哈萨克斯坦",
+        "pinyin": "HSKST",
+        "code": 327
+    },
+    {
+        "province": "Kenya",
+        "name": "肯尼亚",
+        "pinyin": "KNY",
+        "code": 254
+    },
+    {
+        "province": "Korea",
+        "name": "韩国",
+        "pinyin": "HG",
+        "code": 82
+    },
+    {
+        "province": "Kuwait",
+        "name": "科威特",
+        "pinyin": "KWT",
+        "code": 965
+    },
+    {
+        "province": "Kyrgyzstan",
+        "name": "吉尔吉斯坦",
+        "pinyin": "JEJST",
+        "code": 331
+    },
+    {
+        "province": "Laos",
+        "name": "老挝",
+        "pinyin": "LW",
+        "code": 856
+    },
+    {
+        "province": "Latvia",
+        "name": "拉脱维亚",
+        "pinyin": "LTWY",
+        "code": 371
+    },
+    {
+        "province": "Lebanon",
+        "name": "黎巴嫩",
+        "pinyin": "LBN",
+        "code": 961
+    },
+    {
+        "province": "Lesotho",
+        "name": "莱索托",
+        "pinyin": "LST",
+        "code": 266
+    },
+    {
+        "province": "Liberia",
+        "name": "利比里亚",
+        "pinyin": "LBLY",
+        "code": 231
+    },
+    {
+        "province": "Libya",
+        "name": "利比亚",
+        "pinyin": "LBY",
+        "code": 218
+    },
+    {
+        "province": "Liechtenstein",
+        "name": "列支敦士登",
+        "pinyin": "LZDSD",
+        "code": 423
+    },
+    {
+        "province": "Lithuania",
+        "name": "立陶宛",
+        "pinyin": "LTW",
+        "code": 370
+    },
+    {
+        "province": "Luxembourg",
+        "name": "卢森堡",
+        "pinyin": "LSB",
+        "code": 352
+    },
+    {
+        "province": "Macao",
+        "name": "澳门",
+        "pinyin": "AM",
+        "code": 853
+    },
+    {
+        "province": "Madagascar",
+        "name": "马达加斯加",
+        "pinyin": "MDJSJ",
+        "code": 261
+    },
+    {
+        "province": "Malawi",
+        "name": "马拉维",
+        "pinyin": "MLW",
+        "code": 265
+    },
+    {
+        "province": "Malaysia",
+        "name": "马来西亚",
+        "pinyin": "MLXY",
+        "code": 60
+    },
+    {
+        "province": "Maldives",
+        "name": "马尔代夫",
+        "pinyin": "MEDF",
+        "code": 960
+    },
+    {
+        "province": "Mali",
+        "name": "马里",
+        "pinyin": "ML",
+        "code": 223
+    },
+    {
+        "province": "Malta",
+        "name": "马耳他",
+        "pinyin": "MET",
+        "code": 356
+    },
+    {
+        "province": "Mariana Is",
+        "name": "马里亚那群岛",
+        "pinyin": "MLYAQD",
+        "code": 1670
+    },
+    {
+        "province": "Martinique",
+        "name": "马提尼克",
+        "pinyin": "MTNK",
+        "code": 596
+    },
+    {
+        "province": "Mauritius",
+        "name": "毛里求斯",
+        "pinyin": "MLQS",
+        "code": 230
+    },
+    {
+        "province": "Mexico",
+        "name": "墨西哥",
+        "pinyin": "MXG",
+        "code": 52
+    },
+    {
+        "province": "Moldova, Republic of",
+        "name": "摩尔多瓦",
+        "pinyin": "MEDW",
+        "code": 373
+    },
+    {
+        "province": "Monaco",
+        "name": "摩纳哥",
+        "pinyin": "MNG",
+        "code": 377
+    },
+    {
+        "province": "Mongolia",
+        "name": "蒙古",
+        "pinyin": "MG",
+        "code": 976
+    },
+    {
+        "province": "Montserrat Is",
+        "name": "蒙特塞拉特岛",
+        "pinyin": "MTSLTD",
+        "code": 1664
+    },
+    {
+        "province": "Morocco",
+        "name": "摩洛哥",
+        "pinyin": "MLG",
+        "code": 212
+    },
+    {
+        "province": "Mozambique",
+        "name": "莫桑比克",
+        "pinyin": "MSBK",
+        "code": 258
+    },
+    {
+        "province": "Namibia",
+        "name": "纳米比亚",
+        "pinyin": "NMBY",
+        "code": 264
+    },
+    {
+        "province": "Nauru",
+        "name": "瑙鲁",
+        "pinyin": "NL",
+        "code": 674
+    },
+    {
+        "province": "Nepal",
+        "name": "尼泊尔",
+        "pinyin": "NBE",
+        "code": 977
+    },
+    {
+        "province": "netherlands Antilles",
+        "name": "荷属安的列斯",
+        "pinyin": "HSADLS",
+        "code": 599
+    },
+    {
+        "province": "Netherlands",
+        "name": "荷兰",
+        "pinyin": "HL",
+        "code": 31
+    },
+    {
+        "province": "New Zealand",
+        "name": "新西兰",
+        "pinyin": "XXL",
+        "code": 64
+    },
+    {
+        "province": "Nicaragua",
+        "name": "尼加拉瓜",
+        "pinyin": "NJLG",
+        "code": 505
+    },
+    {
+        "province": "Niger",
+        "name": "尼日尔",
+        "pinyin": "NRE",
+        "code": 227
+    },
+    {
+        "province": "Nigeria",
+        "name": "尼日利亚",
+        "pinyin": "NRLY",
+        "code": 234
+    },
+    {
+        "province": "North Korea",
+        "name": "朝鲜",
+        "pinyin": "CX",
+        "code": 850
+    },
+    {
+        "province": "Norway",
+        "name": "挪威",
+        "pinyin": "NW",
+        "code": 47
+    },
+    {
+        "province": "Oman",
+        "name": "阿曼",
+        "pinyin": "AM",
+        "code": 968
+    },
+    {
+        "province": "Pakistan",
+        "name": "巴基斯坦",
+        "pinyin": "BJST",
+        "code": 92
+    },
+    {
+        "province": "Panama",
+        "name": "巴拿马",
+        "pinyin": "BNM",
+        "code": 507
+    },
+    {
+        "province": "Papua New Cuinea",
+        "name": "巴布亚新几内亚",
+        "pinyin": "BBYXJNY",
+        "code": 675
+    },
+    {
+        "province": "Paraguay",
+        "name": "巴拉圭",
+        "pinyin": "BLG",
+        "code": 595
+    },
+    {
+        "province": "Peru",
+        "name": "秘鲁",
+        "pinyin": "ML",
+        "code": 51
+    },
+    {
+        "province": "Philippines",
+        "name": "菲律宾",
+        "pinyin": "FLB",
+        "code": 63
+    },
+    {
+        "province": "Poland",
+        "name": "波兰",
+        "pinyin": "BL",
+        "code": 48
+    },
+    {
+        "province": "Frprovincech Polynesia",
+        "name": "法属玻利尼西亚",
+        "pinyin": "FSBLNXY",
+        "code": 689
+    },
+    {
+        "province": "Portugal",
+        "name": "葡萄牙",
+        "pinyin": "PTY",
+        "code": 351
+    },
+    {
+        "province": "Puerto Rico",
+        "name": "波多黎各",
+        "pinyin": "BDLG",
+        "code": 1787
+    },
+    {
+        "province": "Qatar",
+        "name": "卡塔尔",
+        "pinyin": "KTE",
+        "code": 974
+    },
+    {
+        "province": "Reunion",
+        "name": "留尼旺",
+        "pinyin": "LNW",
+        "code": 262
+    },
+    {
+        "province": "Romania",
+        "name": "罗马尼亚",
+        "pinyin": "LMNY",
+        "code": 40
+    },
+    {
+        "province": "Russia",
+        "name": "俄罗斯",
+        "pinyin": "ELS",
+        "code": 7
+    },
+    {
+        "province": "Saint Lueia",
+        "name": "圣卢西亚",
+        "pinyin": "SLXY",
+        "code": 1758
+    },
+    {
+        "province": "Saint Vincprovincet",
+        "name": "圣文森特岛",
+        "pinyin": "SWSTD",
+        "code": 1784
+    },
+    {
+        "province": "Samoa Eastern",
+        "name": "东萨摩亚(美)",
+        "pinyin": "DSMY",
+        "code": 684
+    },
+    {
+        "province": "Samoa Western",
+        "name": "西萨摩亚",
+        "pinyin": "XSMY",
+        "code": 685
+    },
+    {
+        "province": "San Marino",
+        "name": "圣马力诺",
+        "pinyin": "SMLN",
+        "code": 378
+    },
+    {
+        "province": "Sao Tome and Principe",
+        "name": "圣多美和普林西比",
+        "pinyin": "SDMHPLXB",
+        "code": 239
+    },
+    {
+        "province": "Saudi Arabia",
+        "name": "沙特阿拉伯",
+        "pinyin": "STALB",
+        "code": 966
+    },
+    {
+        "province": "Sprovinceegal",
+        "name": "塞内加尔",
+        "pinyin": "SNJE",
+        "code": 221
+    },
+    {
+        "province": "Seychelles",
+        "name": "塞舌尔",
+        "pinyin": "SSE",
+        "code": 248
+    },
+    {
+        "province": "Sierra Leone",
+        "name": "塞拉利昂",
+        "pinyin": "SLLA",
+        "code": 232
+    },
+    {
+        "province": "Singapore",
+        "name": "新加坡",
+        "pinyin": "XJP",
+        "code": 65
+    },
+    {
+        "province": "Slovakia",
+        "name": "斯洛伐克",
+        "pinyin": "SLFK",
+        "code": 421
+    },
+    {
+        "province": "Slovprovinceia",
+        "name": "斯洛文尼亚",
+        "pinyin": "SLWNY",
+        "code": 386
+    },
+    {
+        "province": "Solomon Is",
+        "name": "所罗门群岛",
+        "pinyin": "SLMQD",
+        "code": 677
+    },
+    {
+        "province": "Somali",
+        "name": "索马里",
+        "pinyin": "SML",
+        "code": 252
+    },
+    {
+        "province": "South Africa",
+        "name": "南非",
+        "pinyin": "LF",
+        "code": 27
+    },
+    {
+        "province": "Spain",
+        "name": "西班牙",
+        "pinyin": "XBY",
+        "code": 34
+    },
+    {
+        "province": "Sri Lanka",
+        "name": "斯里兰卡",
+        "pinyin": "SLLK",
+        "code": 94
+    },
+    {
+        "province": "St.Lucia",
+        "name": "圣卢西亚",
+        "pinyin": "SLXY",
+        "code": 1758
+    },
+    {
+        "province": "St.Vincprovincet",
+        "name": "圣文森特",
+        "pinyin": "SWST",
+        "code": 1784
+    },
+    {
+        "province": "Sudan",
+        "name": "苏丹",
+        "pinyin": "SD",
+        "code": 249
+    },
+    {
+        "province": "Suriname",
+        "name": "苏里南",
+        "pinyin": "SLN",
+        "code": 597
+    },
+    {
+        "province": "Swaziland",
+        "name": "斯威士兰",
+        "pinyin": "SWSL",
+        "code": 268
+    },
+    {
+        "province": "Swedprovince",
+        "name": "瑞典",
+        "pinyin": "RD",
+        "code": 46
+    },
+    {
+        "province": "Switzerland",
+        "name": "瑞士",
+        "pinyin": "RS",
+        "code": 41
+    },
+    {
+        "province": "Syria",
+        "name": "叙利亚",
+        "pinyin": "XLY",
+        "code": 963
+    },
+    {
+        "province": "Taiwan",
+        "name": "台湾省",
+        "pinyin": "TWS",
+        "code": 886
+    },
+    {
+        "province": "Tajikstan",
+        "name": "塔吉克斯坦",
+        "pinyin": "TJKST",
+        "code": 992
+    },
+    {
+        "province": "Tanzania",
+        "name": "坦桑尼亚",
+        "pinyin": "TSNY",
+        "code": 255
+    },
+    {
+        "province": "Thailand",
+        "name": "泰国",
+        "pinyin": "TG",
+        "code": 66
+    },
+    {
+        "province": "Togo",
+        "name": "多哥",
+        "pinyin": "DG",
+        "code": 228
+    },
+    {
+        "province": "Tonga",
+        "name": "汤加",
+        "pinyin": "TJ",
+        "code": 676
+    },
+    {
+        "province": "Trinidad and Tobago",
+        "name": "特立尼达和多巴哥",
+        "pinyin": "TLNDHDBG",
+        "code": 1809
+    },
+    {
+        "province": "Tunisia",
+        "name": "突尼斯",
+        "pinyin": "TNS",
+        "code": 216
+    },
+    {
+        "province": "Turkey",
+        "name": "土耳其",
+        "pinyin": "TEQ",
+        "code": 90
+    },
+    {
+        "province": "Turkmprovinceistan",
+        "name": "土库曼斯坦",
+        "pinyin": "TKMST",
+        "code": 993
+    },
+    {
+        "province": "Uganda",
+        "name": "乌干达",
+        "pinyin": "WGD",
+        "code": 256
+    },
+    {
+        "province": "Ukraine",
+        "name": "乌克兰",
+        "pinyin": "WKL",
+        "code": 380
+    },
+    {
+        "province": "United Arab Emirates",
+        "name": "阿拉伯联合酋长国",
+        "pinyin": "ALBLHQZG",
+        "code": 971
+    },
+    {
+        "province": "United Kiongdom",
+        "name": "英国",
+        "pinyin": "YG",
+        "code": 44
+    },
+    {
+        "province": "United States of America",
+        "name": "美国",
+        "pinyin": "MG",
+        "code": 1
+    },
+    {
+        "province": "Uruguay",
+        "name": "乌拉圭",
+        "pinyin": "WLG",
+        "code": 598
+    },
+    {
+        "province": "Uzbekistan",
+        "name": "乌兹别克斯坦",
+        "pinyin": "WZBKST",
+        "code": 233
+    },
+    {
+        "province": "Vprovinceezuela",
+        "name": "委内瑞拉",
+        "pinyin": "WNRL",
+        "code": 58
+    },
+    {
+        "province": "Vietnam",
+        "name": "越南",
+        "pinyin": "YN",
+        "code": 84
+    },
+    {
+        "province": "Yemprovince",
+        "name": "也门",
+        "pinyin": "YM",
+        "code": 967
+    },
+    {
+        "province": "Yugoslavia",
+        "name": "南斯拉夫",
+        "pinyin": "NSLF",
+        "code": 381
+    },
+    {
+        "province": "Zimbabwe",
+        "name": "津巴布韦",
+        "pinyin": "JBBW",
+        "code": 263
+    },
+    {
+        "province": "Zaire",
+        "name": "扎伊尔",
+        "pinyin": "ZYE",
+        "code": 243
+    },
+    {
+        "province": "Zambia",
+        "name": "赞比亚",
+        "pinyin": "ZBY",
+        "code": 260
+    }
+]

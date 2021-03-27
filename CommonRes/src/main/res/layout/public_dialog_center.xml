@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/public_bg_r8"
+    android:paddingBottom="@dimen/qb_px_20">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ll_dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/qb_px_25"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_dialog_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/image_view_description"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/customer_title"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/customer_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/qb_px_2"
+            android:text="@string/successful_report_baggage"
+            android:textColor="@color/text_3c"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_dialog_icon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_dialog_icon"
+            app:layout_constraintTop_toTopOf="@+id/iv_dialog_icon" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--单行居中,多行靠左-->
+    <LinearLayout
+        android:id="@+id/ll_tid_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/qb_px_20"
+        android:orientation="vertical"
+        android:paddingHorizontal="@dimen/qb_px_30"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ll_dialog_title"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/tv_dialog_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/successful_report_baggage_message"
+            android:textColor="@color/text_69"
+            android:textSize="14sp"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_dialog_single"
+        style="@style/Button_Blue_Background"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/qb_px_44"
+        android:layout_marginTop="@dimen/qb_px_24"
+        android:text="@string/i_know"
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ll_tid_msg"
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent="0.57" />
+
+    <Button
+        android:id="@+id/btn_dialog_left"
+        android:layout_width="@dimen/qb_px_124"
+        android:layout_height="@dimen/qb_px_40"
+        android:layout_marginTop="@dimen/qb_px_24"
+        android:background="@drawable/bg_button_border_blue"
+        android:text="@string/view_luggage"
+        android:textColor="@color/color_text_press"
+        android:textSize="16sp"
+        android:visibility="gone"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/btn_dialog_right"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ll_tid_msg"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/btn_dialog_right"
+        style="@style/Button_Blue_Background"
+        android:layout_width="@dimen/qb_px_124"
+        android:layout_height="@dimen/qb_px_40"
+        android:layout_marginStart="@dimen/qb_px_19"
+        android:text="@string/keep_adding"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_dialog_left"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintLeft_toRightOf="@id/btn_dialog_left"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:visibility="visible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

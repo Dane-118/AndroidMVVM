@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_passenger_footer"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/qb_px_46"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tv_update_passenger"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="添加 / 编辑乘客"
+        android:textColor="#ff007aff"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="@dimen/qb_px_10"
+        android:layout_marginRight="@dimen/qb_px_10"
+        android:background="#F7F7F7" />
+
+    <TextView
+        android:id="@+id/add_baby_passenger"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="添加儿童(用成人证件)"
+        android:textColor="#ff007aff"
+        android:textSize="14sp" />
+</LinearLayout>

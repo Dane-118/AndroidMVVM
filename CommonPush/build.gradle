@@ -1,0 +1,62 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+//编译kotlin代码
+
+apply plugin: 'kotlin-kapt'
+android {
+    compileSdkVersion rootProject.ext.android["compileSdkVersion"]
+    buildToolsVersion rootProject.ext.android["buildToolsVersion"]
+
+    compileOptions {
+        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.android["minSdkVersion"]
+        targetSdkVersion rootProject.ext.android["targetSdkVersion"]
+        versionCode rootProject.ext.android["versionCode"]
+        versionName rootProject.ext.android["versionName"]
+
+        testInstrumentationRunner rootProject.ext.dependencies["androidJUnitRunner"]
+
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    api fileTree(dir: 'libs', include: ['*.jar'])
+
+    //------------------推送----------------------
+    api 'cn.jiguang.sdk:jpush:3.8.6'
+    api 'cn.jiguang.sdk:jcore:2.5.5'
+//    华为
+    api 'cn.jiguang.sdk.plugin:huawei:3.8.6'
+    api 'com.huawei.hms:push:4.0.2.300'
+    //小米通道
+    api 'cn.jiguang.sdk.plugin:xiaomi:3.8.6'
+    //oppo
+    api 'cn.jiguang.sdk.plugin:oppo:3.8.6'
+//    vivo
+    api 'cn.jiguang.sdk.plugin:vivo:3.8.6'
+    api 'androidx.appcompat:appcompat:1.2.0'
+    //工具类库
+    api rootProject.ext.dependencies["blankj"]
+
+    //------------------推送----------------------
+
+
+}
+repositories {
+    mavenCentral()
+}

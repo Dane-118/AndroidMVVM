@@ -1,0 +1,115 @@
+//def componentName = project.getName().startsWith("module_") ? project.getName().substring(0, "module_".length()) :
+
+if (isBuildModule.toBoolean()) {
+    apply plugin: 'com.android.application'
+} else {
+    apply plugin: 'com.android.library'
+}
+
+apply from: "../common_config_build.gradle"
+
+//编译kotlin代码
+apply plugin: 'kotlin-android'
+
+//可选 代码支持通过view id获取对象，不再需要findViewById
+apply plugin: 'kotlin-android-extensions'
+
+apply plugin: 'kotlin-kapt'
+
+apply plugin: "androidx.navigation.safeargs.kotlin"
+
+
+android {
+    compileSdkVersion rootProject.ext.android["compileSdkVersion"]
+    buildToolsVersion rootProject.ext.android["buildToolsVersion"]
+    compileOptions {
+        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.android["minSdkVersion"]
+        targetSdkVersion rootProject.ext.android["targetSdkVersion"]
+        versionCode rootProject.ext.android["versionCode"]
+        versionName rootProject.ext.android["versionName"]
+        testInstrumentationRunner rootProject.ext.dependencies["androidJUnitRunner"]
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [AROUTER_MODULE_NAME: project.getName()]
+                print(project.getName())
+                includeCompileClasspath true
+            }
+        }
+    }
+
+    buildTypes {
+        debug {
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+            buildConfigField "boolean", "USE_CANARY", "true"
+            buildConfigField "boolean", "IS_BUILD_MODULE", "${isBuildModule}"
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        release {
+            buildConfigField "boolean", "LOG_DEBUG", "false"
+            buildConfigField "boolean", "USE_CANARY", "false"
+            buildConfigField "boolean", "IS_BUILD_MODULE", "${isBuildModule}"
+            minifyEnabled true
+            if (isBuildModule.toBoolean()) {
+                shrinkResources true
+            }
+            zipAlignEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+//使用Kotlin实验特性
+    androidExtensions {
+        experimental = true
+    }
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+    lintOptions {
+        disable 'InvalidPackage'
+        disable "ResourceType"
+        abortOnError false
+    }
+    //dataBinding
+    buildFeatures {
+        dataBinding = true
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+            if (isBuildModule.toBoolean()) {
+                manifest.srcFile 'src/main/debug/AndroidManifest.xml'
+            } else {
+                manifest.srcFile 'src/main/release/AndroidManifest.xml'
+            }
+        }
+    }
+}
+
+dependencies {
+
+    if (isBuildModule.toBoolean()) {
+
+        //tools
+        kapt rootProject.ext.dependencies["arouter-compiler"]
+        //test
+//        debugImplementation rootProject.ext.dependencies["canary-debug"]
+        kapt rootProject.ext.dependencies["applifecycle-compiler"]
+        kapt 'com.github.bumptech.glide:compiler:4.11.0'
+        kapt "com.github.codyer.ElegantBus:compiler:2.2.0"// 需要事件自动管理时使用
+        kapt "androidx.room:room-compiler:2.2.5"
+    } else {
+        kapt rootProject.ext.dependencies["arouter-compiler"]
+//        compileOnly rootProject.ext.dependencies["canary-debug"]
+        kapt 'com.github.bumptech.glide:compiler:4.11.0'
+        kapt rootProject.ext.dependencies["applifecycle-compiler"]
+        kapt "com.github.codyer.ElegantBus:compiler:2.2.0"// 需要事件自动管理时使用
+        kapt "androidx.room:room-compiler:2.2.5"
+    }
+
+}
